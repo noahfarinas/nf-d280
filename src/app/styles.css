@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+app-root {
+  overflow: hidden;
+  background-color: black;
+}
+
+#name {
+  position: relative;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 5px;
+  padding-top: 25%;
+  font-size: 1rem;
+}
+
+.card02 {
+  max-width: 100%;
+  margin: 0;
+  padding-left: 50px;
+}
+
+svg path {
+  cursor: pointer;
+}
+
+svg {
+  height: 800px;
+  width: auto;
+  padding-top: 50px;
+}
+
+.container {
+  margin: 0;
+}
+
+.row1,
+.row2,
+.row3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: slategrey;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.card01 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  height: 60px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+#header {
+  padding-top: 10px;
+}
+
+.info {
+  width: 500px;
+  height: 310px;
+  padding: 20px;
+  background-color: slategray;
+}
+
+footer {
+  background-color: slategray;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-top: 20px; 
+}
+
+h2 {
+  padding: 10px;
+}

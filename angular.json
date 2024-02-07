@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+           "scripts": [
+              "src/app/map-function.js"  
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
